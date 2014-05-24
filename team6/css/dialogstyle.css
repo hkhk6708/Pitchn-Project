@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Mar-2014, 5:52:00 PM
+    Author     : Lenox
+*/
+
+
+
+
+.dialogstyle .ui-dialog-titlebar
+{
+  position: relative;
+  padding:5px 15px;
+
+  border:0px 0px 0px 1px solid;
+  border-color: white;
+  padding: 5px 15px;
+  font-size: 18px;
+  text-decoration:none;
+  
+  background: #ed7676; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ed7676 0%, #da4f49 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed7676), color-stop(100%,#da4f49)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ed7676 0%,#da4f49 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ed7676 0%,#da4f49 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ed7676 0%,#da4f49 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ed7676 0%,#da4f49 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed7676', endColorstr='#da4f49',GradientType=0 ); /* IE6-9 */
+
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -khtml-border-bottom-right-radius: 0px;
+
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -khtml-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  border-bottom:1px solid #ccc;
+}
+
+.dialogstyle .ui-dialog-content 
+{ 
+    width: 100px;
+    position: relative; 
+    border: 0; 
+    padding: .5em 1em; 
+    background: #f2f5f7 url(images/ui-bg_highlight-hard_100_f2f5f7_1x100.png) 50% top repeat-x;
+    overflow: auto; 
+    zoom: 1; 
+}
+
+.dialogstyle .ui-dialog-title
+{ 
+    color: white;
+}

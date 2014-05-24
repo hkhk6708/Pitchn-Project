@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Mar-2014, 3:31:28 PM
+    Author     : kaisun
+*/
+
+
+#projectclear {
+    clear: left;
+}
+
+#projectrow {
+    position:relative;
+    left: 0px;
+    top: 5px;
+    margin-top:3px;
+    margin-bottom:3px;
+    
+}
+
+#project.left {
+    width:38%;
+    float:left;
+    margin-right:0px;
+    margin-left:2%;
+    margin-top:20px;
+}
+
+
+#project.full {
+    width:96%;
+    min-height: 100px;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+#project.right {
+    width:59%;
+    float:left;
+    min-height:100px;
+    margin-top:20px;
+}
+
+
+#projectbuttons {
+    width:90%;
+    min-height:50px;
+    position:relative;
+    left:10%;
+/*     border-style:solid;
+    border-radius: 2px; 
+    border-color: blue;*/
+}
+
+#projectbutton {
+    float:right;
+   // margin-left:20px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#projectfield {
+    float:left;
+    width:100%;
+   // margin-left:20px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#projectbuttonright {
+   position: relative;
+   left:85%;
+}
+
+#projectsubheader {
+ margin-top:10px;
+ margin-left:10px;
+}
+
+p.project {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size:16px;
+}
+
+h3.project {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 0px;
+}
